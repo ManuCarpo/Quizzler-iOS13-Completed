@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
         let userAnswer = sender.currentTitle!
         
-        let userGotItRight = quizBrain.checkAnswer(userAnswer: userAnswer)
+        let userGotItRight = quizBrain.checkAnswer(userAnswer)
         
         if userGotItRight {
             sender.backgroundColor = UIColor.green
